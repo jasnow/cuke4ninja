@@ -39,7 +39,6 @@ Getting Started
   * May need to patch xep.xml file (after STAMP_PNG) with these 2 lines if you get "cannot have a value" errors.
 
         &lt;option name="VALIDATE" value="true"/>
-
         &lt;option name="DISCARD_IF_NOT_VALID" value="false"/>
 
 

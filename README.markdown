@@ -37,10 +37,10 @@ Getting Started
  1. Run **"make docbook"**
   * May have to install GNU gawk if you do not have it already. I used "brew install gawk" on Mac.
   * May need to patch xep.xml file (after STAMP_PNG) with these 2 lines if you get "cannot have a value" errors.
-<pre>
-        <option name="VALIDATE" value="true"/>
+
+        `<option name="VALIDATE" value="true"/>
         <option name="DISCARD_IF_NOT_VALID" value="false"/>
-<pre>
+
 
  1. Open docbook.pdf.
 
